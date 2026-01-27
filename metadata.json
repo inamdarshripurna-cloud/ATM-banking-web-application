@@ -1,0 +1,8 @@
+{
+  "name": "NexusBank ATM System",
+  "description": "A comprehensive React-based ATM and Banking management portal featuring secure user/admin logins, fund transfers, transaction history, and real-time chat support.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

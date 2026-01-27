@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusBank ATM System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#1a73e8',
+                dark: '#0d62c9',
+                light: '#e8f0fe',
+              },
+              secondary: '#34a853',
+              danger: '#ea4335',
+              warning: '#f9ab00',
+              info: '#4285f4',
+              dark: '#202124',
+              gray: {
+                DEFAULT: '#5f6368',
+                light: '#dadce0',
+              },
+              card: {
+                light: '#ffffff',
+                dark: '#292a2d',
+              },
+              body: {
+                light: '#f8f9fa',
+                dark: '#202124',
+              }
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-body-light dark:bg-body-dark text-dark dark:text-gray-light transition-colors duration-300">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
