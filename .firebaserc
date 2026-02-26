@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "axilam"
-  }
+    "default": "axilam",
+    "projects": "projects-e3e7c"
+  },
+  "targets": {},
+  "etags": {}
 }
